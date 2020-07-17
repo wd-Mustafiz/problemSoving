@@ -63,25 +63,21 @@ function brickCalculator(floor){
     }else{
         return "number of floor is invalid"
     }
-
-    
 }
-console.log(brickCalculator(15));
+console.log(brickCalculator(30));
 
 // ass4.Tiny Friends
 
 
 function tinyFriend(arr){
-    var short = arr[0];
-    
 
-    for(var i = 0 ; i<arr.length ; i++){
-        if(short.length > arr[i].length){
-            var short = arr[i];
+    var short = arr[0];
+        for(var i = 0 ; i<arr.length ; i++){
+            if(short.length > arr[i].length){
+                var short = arr[i];
+            }
         }
-    }
-    return '"' + short + '"' + " is the tiny name";
-    
+        return '"' + short + '"' + " is the tiny name"; 
 }
 
 var arr1 = ['munna' , 'bokul' , 'mubin' , 'rabeya' , 'ayreen' , 'misa' , 'taj'];
